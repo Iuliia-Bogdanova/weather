@@ -11,10 +11,9 @@ function getWeather(city) {
             .innerText = weather.name;
             document.querySelector('.date')
             .innerText = new Date;
-            document.querySelector('.tempValue').innerText = Math.round(weather.main.temp);
-            document.querySelector('.humidity').innerText = (weather.main.humidity);
-            /*document.querySelector('.hi-low').innerText = Math.round(weather.main.temp_max) + " / " + Math.round(weather.main.temp_min);*/
+            document.querySelector('.tempValue').innerText = Math.round(weather.main.temp) + " ° ";
             document.querySelector('.weather').innerText = weather.weather[0].description;
+            document.querySelector('.humidity').innerText = weather.main.humidity + " % ";
         })
         .catch(err => console.log(err));
 }

@@ -1,6 +1,10 @@
+html {
+    background: linear-gradient(90deg, #6a85b6, #bac8e0);
+}
+
 .wrap {
-    background-color: gray;
-    background-size:cover;
     text-align: center;
     color: aliceblue;
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px rgba(25, 17, 17, 0.7);
 }
