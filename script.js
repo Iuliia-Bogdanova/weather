@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-    getWeather('Izhevsk');
+    getWeather('Kyiv');
 });
 
 function getWeather(city) {
@@ -12,8 +12,9 @@ function getWeather(city) {
             document.querySelector('.date')
             .innerText = new Date;
             document.querySelector('.tempValue').innerText = Math.round(weather.main.temp) + " ° ";
+            document.querySelector('.feels_like').innerText = "feels like as " + Math.round(weather.main.feels_like)  + " ° ";
             document.querySelector('.weather').innerText = weather.weather[0].description;
-            document.querySelector('.humidity').innerText = weather.main.humidity + " % ";
+            document.querySelector('.humidity').innerText = "humidity " + weather.main.humidity + " % ";
         })
         .catch(err => console.log(err));
 }
