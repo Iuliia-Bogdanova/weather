@@ -15,6 +15,7 @@ function getWeather(city) {
             document.querySelector('.feels_like').innerText = "feels like as " + Math.round(weather.main.feels_like)  + " ° ";
             document.querySelector('.weather').innerText = weather.weather[0].description;
             document.querySelector('.humidity').innerText = "humidity " + weather.main.humidity + " % ";
+            document.querySelector('.visibility').innerText = "visibility " + weather.visibility + " m ";
         })
         .catch(err => console.log(err));
 }
