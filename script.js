@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-    getWeather('Kyiv');
+    getWeather('Izhevsk');
 });
 
 function getWeather(city) {
