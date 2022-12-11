@@ -9,3 +9,16 @@ week20 task2
     [https://api.nasa.gov/](https://api.nasa.gov/) (данные NASA)
     
     [https://openweathermap.org/api](https://openweathermap.org/api) (погода, требует генерации ключа)
+
+    лучше динамически создавать верстку, а не создавать ее в HTML :подмигивание:
+.then(weather => {
+            const weatherInfo = `
+              <div class="city">${weather.name}</div>
+              <div class="date">${new Date()}</div>
+... и т д
+            `
+           
+
+Кот Ученый
+  4 д. назад
+Кроме того, тебе будет проще отображать несколько разных городов (или других данных), получив данные в виде массива и поместив создание блока в цикл 
