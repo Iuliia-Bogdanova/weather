@@ -55,7 +55,7 @@ At work - dynamic layout creation, change the city by the user, add the library 
 <h4>Thanks to ITGIRLSCHOOL</h4>
 <img src="./promo.PNG" alt="Weather forecast">
 
-This site is live at
+This site is live at https://iuliia-bogdanova.github.io/weather/
 
 <!-- # weather
 week20 task2
