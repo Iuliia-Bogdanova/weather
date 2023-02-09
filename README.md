@@ -50,7 +50,7 @@
 </table>
 
 <h3>In this project - Real-time weather forecast with API<br>
-At work - dynamic layout creation, change the city by the user, add the library to display the time of any city
+To do - dynamic layout creation, change the city by the user (form button?), add the library to display the time of any city
 </h3>
 <h4>Thanks to ITGIRLSCHOOL</h4>
 <img src="./promo.PNG" alt="Weather forecast">
